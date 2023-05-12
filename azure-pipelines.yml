@@ -10,7 +10,6 @@ pool:
   name: Sri
   demands: 
   - git
-  - git -equals 2.163.1
 
 steps:
 - task: UseDotNet@2
