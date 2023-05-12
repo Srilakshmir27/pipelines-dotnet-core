@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: Sri
+  demands: 
+  - dotnet
 
 steps:
 - task: UseDotNet@2
