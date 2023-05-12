@@ -9,7 +9,8 @@ trigger:
 pool:
   name: Sri
   demands: 
-  - dotnet
+  - git
+  - git -equals 2.33.0
 
 steps:
 - task: UseDotNet@2
