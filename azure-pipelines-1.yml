@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: Sri
+  demands:
+  - GitVersion
 
 variables:
   buildConfiguration: 'Release'
