@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: Sri
+  demands:
+  - GitVersion -equals 2.40.1.windows.1
 
 steps:
 - task: UseDotNet@2
